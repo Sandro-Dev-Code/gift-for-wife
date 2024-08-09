@@ -1,0 +1,1681 @@
+body {
+  background-color: pink;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+* {
+  border: 1px solid pink;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.love {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+#box {
+  margin: 0px 500px;
+}
+
+.corner {
+  position: absolute;
+  z-index: 1;
+  width: 182px; /* Adjust the width of the corner images */
+  height: 182px; /* Adjust the height of the corner images */
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.intro {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 130px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+.padding {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.image-hover1 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover1:hover {
+  background-image: url("kisses/kiss1.png");
+}
+
+.image-hover2 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover2:hover {
+  background-image: url("kisses/kiss2.png");
+}
+
+.image-hover3 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover3:hover {
+  background-image: url("kisses/kiss3.png");
+}
+
+.image-hover4 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover4:hover {
+  background-image: url("kisses/kiss4.png");
+}
+
+.image-hover5 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover5:hover {
+  background-image: url("kisses/kiss5.png");
+}
+
+.image-hover6 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover6:hover {
+  background-image: url("kisses/kiss6.png");
+}
+
+.image-hover7 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover7:hover {
+  background-image: url("kisses/kiss7.png");
+}
+
+.image-hover8 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover8:hover {
+  background-image: url("kisses/kiss8.png");
+}
+
+.image-hover9 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover9:hover {
+  background-image: url("kisses/kiss9.png");
+}
+
+.image-hover10 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover10:hover {
+  background-image: url("kisses/kiss10.png");
+}
+
+.image-hover11 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover11:hover {
+  background-image: url("kisses/kiss11.png");
+}
+
+.image-hover12 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover12:hover {
+  background-image: url("kisses/kiss12.png");
+}
+
+.image-hover13 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover13:hover {
+  background-image: url("kisses/kiss13.png");
+}
+
+.image-hover14 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover14:hover {
+  background-image: url("kisses/kiss14.png");
+}
+
+.image-hover15 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover15:hover {
+  background-image: url("kisses/kiss15.png");
+}
+
+.image-hover16 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover16:hover {
+  background-image: url("kisses/kiss16.png");
+}
+
+.image-hover17 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover17:hover {
+  background-image: url("kisses/kiss17.png");
+}
+
+.image-hover18 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover18:hover {
+  background-image: url("kisses/kiss18.png");
+}
+
+.image-hover19 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover19:hover {
+  background-image: url("kisses/kiss19.png");
+}
+
+.image-hover20 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover20:hover {
+  background-image: url("kisses/kiss20.png");
+}
+
+.image-hover21 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover21:hover {
+  background-image: url("kisses/kiss21.png");
+}
+
+.image-hover22 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover22:hover {
+  background-image: url("kisses/kiss22.png");
+}
+
+.image-hover23 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover23:hover {
+  background-image: url("kisses/kiss23.png");
+}
+
+.image-hover24 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover24:hover {
+  background-image: url("kisses/kiss24.png");
+}
+
+.image-hover25 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover25:hover {
+  background-image: url("kisses/kiss25.png");
+}
+
+.image-hover26 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover26:hover {
+  background-image: url("kisses/kiss26.png");
+}
+
+.image-hover27 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover27:hover {
+  background-image: url("kisses/kiss27.png");
+}
+
+.image-hover28 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover28:hover {
+  background-image: url("kisses/kiss28.png");
+}
+
+.image-hover29 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover29:hover {
+  background-image: url("kisses/kiss29.png");
+}
+
+.image-hover30 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover30:hover {
+  background-image: url("kisses/kiss30.png");
+}
+
+.image-hover31 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover31:hover {
+  background-image: url("kisses/kiss31.png");
+}
+
+.image-hover32 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover32:hover {
+  background-image: url("kisses/kiss32.png");
+}
+
+.image-hover33 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover33:hover {
+  background-image: url("kisses/kiss33.png");
+}
+
+.image-hover34 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover34:hover {
+  background-image: url("kisses/kiss34.png");
+}
+
+.image-hover35 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover35:hover {
+  background-image: url("kisses/kiss35.png");
+}
+
+.image-hover36 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover36:hover {
+  background-image: url("kisses/kiss36.png");
+}
+
+.image-hover37 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover37:hover {
+  background-image: url("kisses/kiss37.png");
+}
+
+.image-hover38 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover38:hover {
+  background-image: url("kisses/kiss38.png");
+}
+
+.image-hover39 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover39:hover {
+  background-image: url("kisses/kiss39.png");
+}
+
+.image-hover40 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover40:hover {
+  background-image: url("kisses/kiss40.png");
+}
+
+.image-hover41 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover41:hover {
+  background-image: url("kisses/kiss41.png");
+}
+
+.image-hover42 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover42:hover {
+  background-image: url("kisses/kiss42.png");
+}
+
+.image-hover43 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover43:hover {
+  background-image: url("kisses/kiss43.png");
+}
+
+.image-hover44 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover44:hover {
+  background-image: url("kisses/kiss44.png");
+}
+
+.image-hover45 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover45:hover {
+  background-image: url("kisses/kiss45.png");
+}
+
+.image-hover46 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover46:hover {
+  background-image: url("kisses/kiss46.png");
+}
+
+.image-hover47 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover47:hover {
+  background-image: url("kisses/kiss47.png");
+}
+
+.image-hover48 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover48:hover {
+  background-image: url("kisses/kiss48.png");
+}
+
+.image-hover49 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover49:hover {
+  background-image: url("kisses/kiss49.png");
+}
+
+.image-hover50 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover50:hover {
+  background-image: url("kisses/kiss50.png");
+}
+
+.image-hover51 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover51:hover {
+  background-image: url("kisses/kiss51.png");
+}
+
+.image-hover52 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover52:hover {
+  background-image: url("kisses/kiss52.png");
+}
+
+.image-hover53 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover53:hover {
+  background-image: url("kisses/kiss53.png");
+}
+
+.image-hover54 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover54:hover {
+  background-image: url("kisses/kiss54.png");
+}
+
+.image-hover55 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover55:hover {
+  background-image: url("kisses/kiss55.png");
+}
+
+.image-hover56 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover56:hover {
+  background-image: url("kisses/kiss56.png");
+}
+
+.image-hover57 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover57:hover {
+  background-image: url("kisses/kiss57.png");
+}
+
+.image-hover58 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover58:hover {
+  background-image: url("kisses/kiss58.png");
+}
+
+.image-hover59 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover59:hover {
+  background-image: url("kisses/kiss59.png");
+}
+
+.image-hover60 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover60:hover {
+  background-image: url("kisses/kiss60.png");
+}
+
+.image-hover61 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover61:hover {
+  background-image: url("kisses/kiss61.png");
+}
+
+.image-hover62 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover62:hover {
+  background-image: url("kisses/kiss62.png");
+}
+
+.image-hover63 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover63:hover {
+  background-image: url("kisses/kiss63.png");
+}
+
+.image-hover64 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover64:hover {
+  background-image: url("kisses/kiss64.png");
+}
+
+.image-hover65 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover65:hover {
+  background-image: url("kisses/kiss65.png");
+}
+
+.image-hover66 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover66:hover {
+  background-image: url("kisses/kiss66.png");
+}
+
+.image-hover67 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover67:hover {
+  background-image: url("kisses/kiss67.png");
+}
+
+.image-hover68 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover68:hover {
+  background-image: url("kisses/kiss68.png");
+}
+
+.image-hover69 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover69:hover {
+  background-image: url("kisses/kiss69.png");
+}
+
+.image-hover70 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover70:hover {
+  background-image: url("kisses/kiss70.png");
+}
+
+.image-hover71 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover71:hover {
+  background-image: url("kisses/kiss71.png");
+}
+
+.image-hover72 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover72:hover {
+  background-image: url("kisses/kiss72.png");
+}
+
+.image-hover73 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover73:hover {
+  background-image: url("kisses/kiss73.png");
+}
+
+.image-hover74 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover74:hover {
+  background-image: url("kisses/kiss74.png");
+}
+
+.image-hover75 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover75:hover {
+  background-image: url("kisses/kiss75.png");
+}
+
+.image-hover76 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover76:hover {
+  background-image: url("kisses/kiss76.png");
+}
+
+.image-hover77 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover77:hover {
+  background-image: url("kisses/kiss77.png");
+}
+
+.image-hover78 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover78:hover {
+  background-image: url("kisses/kiss78.png");
+}
+
+.image-hover79 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover79:hover {
+  background-image: url("kisses/kiss79.png");
+}
+
+.image-hover80 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover80:hover {
+  background-image: url("kisses/kiss80.png");
+}
+
+.image-hover81 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover81:hover {
+  background-image: url("kisses/kiss81.png");
+}
+
+.image-hover82 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover82:hover {
+  background-image: url("kisses/kiss82.png");
+}
+
+.image-hover83 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover83:hover {
+  background-image: url("kisses/kiss83.png");
+}
+
+.image-hover84 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover84:hover {
+  background-image: url("kisses/kiss84.png");
+}
+
+.image-hover85 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover85:hover {
+  background-image: url("kisses/kiss85.png");
+}
+
+.image-hover86 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover86:hover {
+  background-image: url("kisses/kiss86.png");
+}
+
+.image-hover87 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover87:hover {
+  background-image: url("kisses/kiss87.png");
+}
+
+.image-hover88 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover88:hover {
+  background-image: url("kisses/kiss88.png");
+}
+
+.image-hover89 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover89:hover {
+  background-image: url("kisses/kiss89.png");
+}
+
+.image-hover90 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover90:hover {
+  background-image: url("kisses/kiss90.png");
+}
+
+.image-hover91 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover91:hover {
+  background-image: url("kisses/kiss91.png");
+}
+
+.image-hover92 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover92:hover {
+  background-image: url("kisses/kiss92.png");
+}
+
+.image-hover93 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover93:hover {
+  background-image: url("kisses/kiss93.png");
+}
+
+.image-hover94 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover94:hover {
+  background-image: url("kisses/kiss94.png");
+}
+
+.image-hover95 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover95:hover {
+  background-image: url("kisses/kiss95.png");
+}
+
+.image-hover96 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover96:hover {
+  background-image: url("kisses/kiss96.png");
+}
+
+.image-hover97 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover97:hover {
+  background-image: url("kisses/kiss97.png");
+}
+
+.image-hover98 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover98:hover {
+  background-image: url("kisses/kiss98.png");
+}
+
+.image-hover99 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover99:hover {
+  background-image: url("kisses/kiss99.png");
+}
+
+.image-hover100 {
+  width: 200px;
+  height: 200px;
+  background-image: url("kisses/Kiss-Image.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 20px 50px;
+}
+
+.image-hover100:hover {
+  background-image: url("kisses/kiss100.png");
+}
